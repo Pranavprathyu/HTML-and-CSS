@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(167, 112, 45);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 10px 10px black;
+    
+
+}
+.reg{
+    background-color: black; 
+    color: aliceblue;
+    height: 450px;
+    width: 300px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+label{
+    margin-left: 10px;
+}
+input[type="text"]{
+    background-color: transparent;
+    border-bottom-color: rgb(202, 8, 15);
+}
+
+input[type="submit"]:hover{
+    background-color: aqua;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
